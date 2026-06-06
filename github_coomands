@@ -1,0 +1,20 @@
+git --version
+gh --version 
+
+
+gh auth login
+git init    
+git add .    
+git commit -m "Initial setup"
+gh repo create Frontend --public
+
+
+git remote add origin https://github.com/anshgautam-github/Learn_Frontend.git
+git remote -v   
+git branch   
+git push -u origin main  
+
+
+git add .   
+git commit -m "Initial setup"
+git push -u origin main  
