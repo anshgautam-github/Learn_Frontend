@@ -1,0 +1,47 @@
+@font-face {
+    font-family: ghost;
+    src: url(./Heavytal.ttf);
+
+    /*
+    You can download the font file from the internet and place it in the same directory as your CSS file and use it 
+    in your styles 
+    
+    2 ways u can download => either from a webiste or from google fonts or steal using dev tools and 
+    then use it in your css file.
+    
+    For that go to the website and open dev tools and go to network and filter by font
+    and then you will see the font file and then you can download it and use it in your css file.
+    */
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: ghost;  /* this is how you can use the font in your css file */
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 50px;
+}
+
+h2{
+    font-family: ghost;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #580f0f;
+    font-size: 30px;
+}
+
+iframe{
+    border: 2px solid rgb(171, 50, 50);
+    border-radius: 10px;
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
