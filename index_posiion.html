@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    z index does not work on static and relative elements, it only works on absolute and fixed elements.
+    also z index only works on elements that have a position value other than static (the default). 
+    
+    So, if you want to use z index, you need to set the position of the element to absolute, relative, fixed, or sticky.
+
+    left, right, top, bottom, z index only work on elements that have a position value other than static (the default). 
+    So, if you want to use left, right, top, bottom, z index, you need to set the position of the element to absolute, relative, fixed, or sticky.
+
+    try make a div do not give it a position, and then try to use left, right, top, bottom, z index on it. you will see that it does not work.
+
+    if we use absolute,it will go in the air up uski space khali ho jyegi nd uski jagah baad wala element aa jayega, and jo upar gya h usko we can move
+    left, right, top, bottom values.
+
+    imagine, we make a parent div, inside a child div, and we give the parent div a position relative, 
+    and the child div a position absolute, then the child div will be positioned relative to the parent div.
+    means parent ke andar child ko position karenge, not the whole page ke hisab se.
+
+    if we use relative, it will stay in its place but it will move according to the left, right, top, bottom values we give it.
+     if we use fixed, it will stay in its place even when we scroll the page. 
+     if we use sticky, it will stick to the top of the page when we scroll down.
+
+    fixed -> scroll krne pe fixed position element apni jagah pe hi rahega, page ke hisab se nahi move karega.
+    sticky -> scroll krne pe sticky position element top pe chipak jayega, jab tak hum usko top se nahi hata dete.
+</body>
+</html>
